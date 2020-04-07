@@ -26,7 +26,6 @@ library = load_library(file_path)
 if library.has_value?(emoticon)
 jap_emote= library[:get_emoticon][emoticon]
 jap_emote
-else puts 
 end
 end
 
