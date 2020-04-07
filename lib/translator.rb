@@ -8,6 +8,6 @@ require 'pp'
 def load_library(file)
  emotes = YAML.load_file(file)
 pp emotes
-emotes_meaingng
+emotes_meaning ={}
  
 end
