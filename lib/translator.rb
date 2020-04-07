@@ -27,7 +27,7 @@ end
 
 def get_english_meaning(file, emote)
   emotes_meaning = load_library(file);
-emotes_meaning[:get_meaning].{|k,v| k==emote 
+emotes_meaning[:get_meaning].select{|k,v| k==emote 
 }
 
 end
