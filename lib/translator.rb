@@ -15,3 +15,11 @@ emotes.each {|meaning, emotes|meaning; emotes;
 }
 emotes_meaning
 end
+
+def get_japanese_emoticon(file, emote)
+  load_library(file)
+if emotes_meaning[:get_emoticon][emote]
+  return emotes_meaning[:get_emoticon][emote]
+else 'Sorry that emote doesnt exit'
+end
+end
