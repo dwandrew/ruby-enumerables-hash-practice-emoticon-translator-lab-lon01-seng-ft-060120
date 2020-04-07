@@ -30,7 +30,6 @@ def get_english_meaning(file, emote)
 emotes_meaning[:get_meaning].each{|k,v|  k; v if  k==emote; return v
   else
   return "Sorry, that emoticon was not found"
-  end
 }
 
 end
