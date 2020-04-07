@@ -28,6 +28,9 @@ end
 def get_english_meaning(file, emote)
   emotes_meaning = load_library(file);
 if emotes_meaning[:get_meaning][emote]!=nil;
-  return
+  return emotes_meaning[:get_meaning][emote]
+else 
+  return "Sorry, that emoticon was not found"
+end
 
 end
