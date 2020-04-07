@@ -27,7 +27,7 @@ end
 
 def get_english_meaning(file, emote)
   emotes_meaning = load_library(file);
-emotes_meaning[:get_meaning].each{|k,v|  k; p v #if  v==emote; return k.to_s
+emotes_meaning[:get_meaning].each{|k,v| p k; v #if  v==emote; return k.to_s
   #else
   #return "Sorry, that emoticon was not found"
   #end
