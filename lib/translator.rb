@@ -18,8 +18,4 @@ end
 
 def get_japanese_emoticon(file, emote)
   load_library(file)
-if load_library[:get_emoticon][emote]
-  return load_library[:get_emoticon][emote]
-else 'Sorry that emote doesnt exit'
-end
 end
