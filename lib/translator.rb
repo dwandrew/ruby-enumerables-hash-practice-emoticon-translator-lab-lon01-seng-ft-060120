@@ -19,5 +19,5 @@ end
 def get_japanese_emoticon(file, emote)
   emotes_meaning= load_library(file)
  emotes_meaning[:get_emoticon][emote]
- return 'Sorry. No emote of that quaility here'
+ return "Sorry, that emoticon was not found"
 end
