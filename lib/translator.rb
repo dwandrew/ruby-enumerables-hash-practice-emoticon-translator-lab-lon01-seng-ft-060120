@@ -28,6 +28,7 @@ jap_emote= library[:get_emoticon][emoticon]
 jap_emote
 else puts 
 end
+end
 
 def get_english_meaning(file_path, emoticon)
 library = load_library(file_path)
