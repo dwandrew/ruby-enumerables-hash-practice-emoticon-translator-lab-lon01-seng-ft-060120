@@ -5,3 +5,6 @@ require 'pp'
 emotes = YAML.load_file('./lib/emoticons.yml')
 pp emotes
 
+def load_library(file)
+ 
+end
