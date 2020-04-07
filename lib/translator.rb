@@ -9,6 +9,6 @@ def load_library(file)
  emotes = YAML.load_file(file)
 emotes
 emotes_meaning ={:get_meaning => {}, :get_emoticon =>{}}
-emotes.each {|meaning, emotes|p meaning p emotes}
+emotes.each {|meaning, emotes|p meaning; p emotes}
 pp emotes_meaning
 end
