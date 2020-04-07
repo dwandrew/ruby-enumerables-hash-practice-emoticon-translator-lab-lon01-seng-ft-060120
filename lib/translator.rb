@@ -7,6 +7,6 @@ require 'pp'
 
 def load_library(file)
  emotes = YAML.load_file(file)
- emotes
+pp emotes
  
 end
